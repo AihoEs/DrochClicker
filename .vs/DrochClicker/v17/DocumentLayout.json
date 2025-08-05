@@ -1,0 +1,405 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\DrochClicker\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AFC5969E-CA24-15F0-76E4-1B34CBF1D5A2}|DrochClicker.csproj|c:\\users\\asus\\desktop\\drochclicker\\services\\shopservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFC5969E-CA24-15F0-76E4-1B34CBF1D5A2}|DrochClicker.csproj|solutionrelative:services\\shopservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFC5969E-CA24-15F0-76E4-1B34CBF1D5A2}|DrochClicker.csproj|c:\\users\\asus\\desktop\\drochclicker\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AFC5969E-CA24-15F0-76E4-1B34CBF1D5A2}|DrochClicker.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFC5969E-CA24-15F0-76E4-1B34CBF1D5A2}|DrochClicker.csproj|c:\\users\\asus\\desktop\\drochclicker\\pages\\shop.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFC5969E-CA24-15F0-76E4-1B34CBF1D5A2}|DrochClicker.csproj|solutionrelative:pages\\shop.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFC5969E-CA24-15F0-76E4-1B34CBF1D5A2}|DrochClicker.csproj|c:\\users\\asus\\desktop\\drochclicker\\services\\shopinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFC5969E-CA24-15F0-76E4-1B34CBF1D5A2}|DrochClicker.csproj|solutionrelative:services\\shopinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFC5969E-CA24-15F0-76E4-1B34CBF1D5A2}|DrochClicker.csproj|c:\\users\\asus\\desktop\\drochclicker\\pages\\shop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AFC5969E-CA24-15F0-76E4-1B34CBF1D5A2}|DrochClicker.csproj|solutionrelative:pages\\shop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFC5969E-CA24-15F0-76E4-1B34CBF1D5A2}|DrochClicker.csproj|c:\\users\\asus\\desktop\\drochclicker\\pages\\system\\click.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFC5969E-CA24-15F0-76E4-1B34CBF1D5A2}|DrochClicker.csproj|solutionrelative:pages\\system\\click.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFC5969E-CA24-15F0-76E4-1B34CBF1D5A2}|DrochClicker.csproj|c:\\users\\asus\\desktop\\drochclicker\\pages\\system\\click.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AFC5969E-CA24-15F0-76E4-1B34CBF1D5A2}|DrochClicker.csproj|solutionrelative:pages\\system\\click.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFC5969E-CA24-15F0-76E4-1B34CBF1D5A2}|DrochClicker.csproj|c:\\users\\asus\\desktop\\drochclicker\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AFC5969E-CA24-15F0-76E4-1B34CBF1D5A2}|DrochClicker.csproj|solutionrelative:pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFC5969E-CA24-15F0-76E4-1B34CBF1D5A2}|DrochClicker.csproj|c:\\users\\asus\\desktop\\drochclicker\\pages\\database info\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFC5969E-CA24-15F0-76E4-1B34CBF1D5A2}|DrochClicker.csproj|solutionrelative:pages\\database info\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFC5969E-CA24-15F0-76E4-1B34CBF1D5A2}|DrochClicker.csproj|c:\\users\\asus\\desktop\\drochclicker\\pages\\user\\sign in.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFC5969E-CA24-15F0-76E4-1B34CBF1D5A2}|DrochClicker.csproj|solutionrelative:pages\\user\\sign in.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFC5969E-CA24-15F0-76E4-1B34CBF1D5A2}|DrochClicker.csproj|c:\\users\\asus\\desktop\\drochclicker\\pages\\database info\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFC5969E-CA24-15F0-76E4-1B34CBF1D5A2}|DrochClicker.csproj|solutionrelative:pages\\database info\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFC5969E-CA24-15F0-76E4-1B34CBF1D5A2}|DrochClicker.csproj|c:\\users\\asus\\desktop\\drochclicker\\migrations\\20250805142503_shop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFC5969E-CA24-15F0-76E4-1B34CBF1D5A2}|DrochClicker.csproj|solutionrelative:migrations\\20250805142503_shop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFC5969E-CA24-15F0-76E4-1B34CBF1D5A2}|DrochClicker.csproj|c:\\users\\asus\\desktop\\drochclicker\\migrations\\20250804195631_shoptable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFC5969E-CA24-15F0-76E4-1B34CBF1D5A2}|DrochClicker.csproj|solutionrelative:migrations\\20250804195631_shoptable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFC5969E-CA24-15F0-76E4-1B34CBF1D5A2}|DrochClicker.csproj|c:\\users\\asus\\desktop\\drochclicker\\pages\\user\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFC5969E-CA24-15F0-76E4-1B34CBF1D5A2}|DrochClicker.csproj|solutionrelative:pages\\user\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFC5969E-CA24-15F0-76E4-1B34CBF1D5A2}|DrochClicker.csproj|c:\\users\\asus\\desktop\\drochclicker\\pages\\user\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFC5969E-CA24-15F0-76E4-1B34CBF1D5A2}|DrochClicker.csproj|solutionrelative:pages\\user\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFC5969E-CA24-15F0-76E4-1B34CBF1D5A2}|DrochClicker.csproj|c:\\users\\asus\\desktop\\drochclicker\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AFC5969E-CA24-15F0-76E4-1B34CBF1D5A2}|DrochClicker.csproj|solutionrelative:pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFC5969E-CA24-15F0-76E4-1B34CBF1D5A2}|DrochClicker.csproj|c:\\users\\asus\\desktop\\drochclicker\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AFC5969E-CA24-15F0-76E4-1B34CBF1D5A2}|DrochClicker.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFC5969E-CA24-15F0-76E4-1B34CBF1D5A2}|DrochClicker.csproj|c:\\users\\asus\\desktop\\drochclicker\\pages\\user\\sign in.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AFC5969E-CA24-15F0-76E4-1B34CBF1D5A2}|DrochClicker.csproj|solutionrelative:pages\\user\\sign in.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFC5969E-CA24-15F0-76E4-1B34CBF1D5A2}|DrochClicker.csproj|c:\\users\\asus\\desktop\\drochclicker\\pages\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AFC5969E-CA24-15F0-76E4-1B34CBF1D5A2}|DrochClicker.csproj|solutionrelative:pages\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFC5969E-CA24-15F0-76E4-1B34CBF1D5A2}|DrochClicker.csproj|c:\\users\\asus\\desktop\\drochclicker\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AFC5969E-CA24-15F0-76E4-1B34CBF1D5A2}|DrochClicker.csproj|solutionrelative:pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFC5969E-CA24-15F0-76E4-1B34CBF1D5A2}|DrochClicker.csproj|c:\\users\\asus\\desktop\\drochclicker\\pages\\user\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AFC5969E-CA24-15F0-76E4-1B34CBF1D5A2}|DrochClicker.csproj|solutionrelative:pages\\user\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFC5969E-CA24-15F0-76E4-1B34CBF1D5A2}|DrochClicker.csproj|c:\\users\\asus\\desktop\\drochclicker\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AFC5969E-CA24-15F0-76E4-1B34CBF1D5A2}|DrochClicker.csproj|solutionrelative:pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFC5969E-CA24-15F0-76E4-1B34CBF1D5A2}|DrochClicker.csproj|c:\\users\\asus\\desktop\\drochclicker\\migrations\\dbcontextinfomodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFC5969E-CA24-15F0-76E4-1B34CBF1D5A2}|DrochClicker.csproj|solutionrelative:migrations\\dbcontextinfomodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFC5969E-CA24-15F0-76E4-1B34CBF1D5A2}|DrochClicker.csproj|c:\\users\\asus\\desktop\\drochclicker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFC5969E-CA24-15F0-76E4-1B34CBF1D5A2}|DrochClicker.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Click.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\DrochClicker\\Pages\\System\\Click.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\System\\Click.cshtml.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\DrochClicker\\Pages\\System\\Click.cshtml.cs",
+              "RelativeToolTip": "Pages\\System\\Click.cshtml.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAswEAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T12:55:25.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20250805142503_Shop.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\DrochClicker\\Migrations\\20250805142503_Shop.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250805142503_Shop.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\DrochClicker\\Migrations\\20250805142503_Shop.cs",
+              "RelativeToolTip": "Migrations\\20250805142503_Shop.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T14:25:03.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20250804195631_ShopTable.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\DrochClicker\\Migrations\\20250804195631_ShopTable.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250804195631_ShopTable.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\DrochClicker\\Migrations\\20250804195631_ShopTable.cs",
+              "RelativeToolTip": "Migrations\\20250804195631_ShopTable.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T14:26:09.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\DrochClicker\\Pages\\Database info\\DbContext.cs",
+              "RelativeDocumentMoniker": "Pages\\Database info\\DbContext.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\DrochClicker\\Pages\\Database info\\DbContext.cs",
+              "RelativeToolTip": "Pages\\Database info\\DbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T13:06:32.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserContext.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\DrochClicker\\Pages\\Database info\\UserContext.cs",
+              "RelativeDocumentMoniker": "Pages\\Database info\\UserContext.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\DrochClicker\\Pages\\Database info\\UserContext.cs",
+              "RelativeToolTip": "Pages\\Database info\\UserContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T13:06:36.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ShopInfo.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\DrochClicker\\Services\\ShopInfo.cs",
+              "RelativeDocumentMoniker": "Services\\ShopInfo.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\DrochClicker\\Services\\ShopInfo.cs",
+              "RelativeToolTip": "Services\\ShopInfo.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T12:58:17.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Shop.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\DrochClicker\\Pages\\Shop.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shop.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\DrochClicker\\Pages\\Shop.cshtml",
+              "RelativeToolTip": "Pages\\Shop.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-05T12:55:16.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\DrochClicker\\Pages\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\DrochClicker\\Pages\\Privacy.cshtml",
+              "RelativeToolTip": "Pages\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-05T12:58:16.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Shop.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\DrochClicker\\Pages\\Shop.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Shop.cshtml.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\DrochClicker\\Pages\\Shop.cshtml.cs",
+              "RelativeToolTip": "Pages\\Shop.cshtml.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAcwEQAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T12:55:46.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ShopService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\DrochClicker\\Services\\ShopService.cs",
+              "RelativeDocumentMoniker": "Services\\ShopService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\DrochClicker\\Services\\ShopService.cs",
+              "RelativeToolTip": "Services\\ShopService.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAiwFUAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T13:07:39.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\DrochClicker\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\DrochClicker\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-05T14:26:57.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Click.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\DrochClicker\\Pages\\System\\Click.cshtml",
+              "RelativeDocumentMoniker": "Pages\\System\\Click.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\DrochClicker\\Pages\\System\\Click.cshtml",
+              "RelativeToolTip": "Pages\\System\\Click.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-05T12:55:21.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Logout.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\DrochClicker\\Pages\\User\\Logout.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\User\\Logout.cshtml.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\DrochClicker\\Pages\\User\\Logout.cshtml.cs",
+              "RelativeToolTip": "Pages\\User\\Logout.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T13:07:13.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Sign in.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\DrochClicker\\Pages\\User\\Sign in.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\User\\Sign in.cshtml.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\DrochClicker\\Pages\\User\\Sign in.cshtml.cs",
+              "RelativeToolTip": "Pages\\User\\Sign in.cshtml.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T13:07:19.576Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\DrochClicker\\Pages\\Error.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Error.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\DrochClicker\\Pages\\Error.cshtml",
+              "RelativeToolTip": "Pages\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-05T14:17:45.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\DrochClicker\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\DrochClicker\\Pages\\Index.cshtml",
+              "RelativeToolTip": "Pages\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-05T14:17:41.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\DrochClicker\\Pages\\User\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\User\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\DrochClicker\\Pages\\User\\Login.cshtml.cs",
+              "RelativeToolTip": "Pages\\User\\Login.cshtml.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T13:07:08.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Sign in.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\DrochClicker\\Pages\\User\\Sign in.cshtml",
+              "RelativeDocumentMoniker": "Pages\\User\\Sign in.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\DrochClicker\\Pages\\User\\Sign in.cshtml",
+              "RelativeToolTip": "Pages\\User\\Sign in.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-05T13:06:58.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\DrochClicker\\Pages\\User\\Login.cshtml",
+              "RelativeDocumentMoniker": "Pages\\User\\Login.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\DrochClicker\\Pages\\User\\Login.cshtml",
+              "RelativeToolTip": "Pages\\User\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-05T13:06:48.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\DrochClicker\\Pages\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Pages\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\DrochClicker\\Pages\\_ViewImports.cshtml",
+              "RelativeToolTip": "Pages\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-05T14:26:41.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Logout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\DrochClicker\\Pages\\User\\Logout.cshtml",
+              "RelativeDocumentMoniker": "Pages\\User\\Logout.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\DrochClicker\\Pages\\User\\Logout.cshtml",
+              "RelativeToolTip": "Pages\\User\\Logout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-05T12:58:19.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\DrochClicker\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Pages\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\DrochClicker\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "Pages\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-05T14:26:38.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "DbContextInfoModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\DrochClicker\\Migrations\\DbContextInfoModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\DbContextInfoModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\DrochClicker\\Migrations\\DbContextInfoModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\DbContextInfoModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T14:26:07.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\DrochClicker\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\DrochClicker\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T12:55:09.553Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

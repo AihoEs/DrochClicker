@@ -20,8 +20,11 @@ namespace DrochClicker.Services
         public string UserLogin { get; set; }
         public int Level { get; set; }
         public int ShopItemId { get; set; }
+        public int Rebirth { get; set; }
+
 
         public UserContext User { get; set; }
         public ShopInfo Upgrade { get; set; }
     }
+
 }

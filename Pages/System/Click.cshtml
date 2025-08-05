@@ -16,6 +16,8 @@
 
 <p class="display-3">@Model.Click</p>
 
+<br />
+
 
 <h3>Инвентарь</h3>
 
@@ -23,6 +25,7 @@
 {
 @foreach(var item in Model.Inventory)
    {
+       
 
     <ul>
         <p>@(item.Upgrade?.Name ?? "Нет названия")  -  @item.Level</p>
@@ -34,4 +37,30 @@ else
 {
     <p>У вас пока нет апгрейдов</p>
 }
+
+<p>Ты сделал @Model.Rebirth пусков спермы </p>
+<div style="text-align: center">
+    
+        <p><strong>Кончить(сбросить весь прогресс)</strong></p>
+        <br />
+        <p>
+            <strong>
+
+                @foreach (var item in Model.ShopUpgrades)
+                {
+                    if (item.EffectType == "Rebirth")
+                    {
+                        <form method="post">
+                        <ul>
+                            <p>@item.Name - @item.Price (+@item.Value) </p>
+                            <input type="hidden" name="upgradeId" value="@item.ItemId" />
+                            <button type="submit" asp-page-handler="Rebirth">Купить</button>
+                        </ul>
+                        </form>
+                    }
+                }
+            </strong>
+        </p>
+   
+</div>
 

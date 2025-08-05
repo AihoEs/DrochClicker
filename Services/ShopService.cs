@@ -48,7 +48,34 @@ namespace DrochClicker.Services
                 EffectType = "boost",
                 Value = 4,
                 Price = 250
+                },
+                new ShopInfo
+                {
+                ItemId = 4,
+                Name = "Обмануть друга",
+                EffectType = "boost",
+                Value = 7,
+                Price = 600
+                },
+                new ShopInfo
+                {
+                ItemId = 5,
+                Name = "Снять проститутку",
+                EffectType = "boost",
+                Value = 10,
+                Price = 1500
+                },
+                new ShopInfo
+                {
+                ItemId = 6,
+                Name = "Кончить",
+                EffectType = "Rebirth",
+                Value = 1,
+                Price = 15000
                 }
+
+
+
             };
             var existingIds = _db.Upgrades.Select(u => u.ItemId).ToHashSet();
             var NewUpgrades = newUpgrade.Where(x => !existingIds.Contains(x.ItemId)).ToList();

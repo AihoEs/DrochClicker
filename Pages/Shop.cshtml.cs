@@ -63,19 +63,21 @@ namespace DrochClicker.Pages
             }
             else
             {
-                var price = shopItem.Price;
-
-                if (user.ClickCount >= price)
+                
+                int level = upgrades?.Level ?? 0;
+                double finalPrice = shopItem.Price * Math.Pow(1.15, level);
+                if (user.ClickCount >= (int)finalPrice)
                 {
 
 
                     if (upgrades != null)
                     {
                         upgrades.Level++;
-                        user.ClickCount -= price;
+                        user.ClickCount -= (int)finalPrice;
                     }
                     else
                     {
+                        
                         var newUpgrade = new UserInfo
                         {
                             UserLogin = login,
@@ -84,7 +86,7 @@ namespace DrochClicker.Pages
                             
                         };
                         _db.UserUpgrades.Add(newUpgrade);
-                        user.ClickCount -= price;
+                        user.ClickCount -= (int)finalPrice;
                     }
                 }
                 else

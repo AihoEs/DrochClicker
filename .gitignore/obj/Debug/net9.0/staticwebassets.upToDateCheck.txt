@@ -63,6 +63,7 @@ wwwroot\lib\jquery\dist\jquery.slim.min.map
 wwwroot\lib\jquery\LICENSE.txt
 C:\Users\ASUS\Desktop\DrochClicker\wwwroot\css\site.css
 C:\Users\ASUS\Desktop\DrochClicker\wwwroot\favicon.ico
+C:\Users\ASUS\Desktop\DrochClicker\wwwroot\js\site.js
 C:\Users\ASUS\Desktop\DrochClicker\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 C:\Users\ASUS\Desktop\DrochClicker\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
 C:\Users\ASUS\Desktop\DrochClicker\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
@@ -122,4 +123,3 @@ C:\Users\ASUS\Desktop\DrochClicker\wwwroot\lib\jquery\dist\jquery.slim.js
 C:\Users\ASUS\Desktop\DrochClicker\wwwroot\lib\jquery\dist\jquery.slim.min.js
 C:\Users\ASUS\Desktop\DrochClicker\wwwroot\lib\jquery\dist\jquery.slim.min.map
 C:\Users\ASUS\Desktop\DrochClicker\wwwroot\lib\jquery\LICENSE.txt
-C:\Users\ASUS\Desktop\DrochClicker\wwwroot\js\site.js
