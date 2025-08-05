@@ -52,7 +52,7 @@ else
                     {
                         <form method="post">
                         <ul>
-                            <p>@item.Name - @item.Price (+@item.Value) </p>
+                            <p>@item.Name - @Model.RebirthPrice (+@item.Value) </p>
                             <input type="hidden" name="upgradeId" value="@item.ItemId" />
                             <button type="submit" asp-page-handler="Rebirth">Купить</button>
                         </ul>

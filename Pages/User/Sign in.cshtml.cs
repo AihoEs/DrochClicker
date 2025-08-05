@@ -23,6 +23,7 @@ namespace Drochclicker.Pages.User
         public string Login { get; set; }
         [BindProperty]
         [Required]
+        [MinLength(6, ErrorMessage = "Слишком короткий пароль")]
         [DataType(DataType.Password)]
         public string Password { get; set; }
         
@@ -38,6 +39,7 @@ namespace Drochclicker.Pages.User
             _db = db;
             _hasher = hasher;
         }
+
         public async Task<IActionResult> OnPostAsync()
         {
             if (!ModelState.IsValid)

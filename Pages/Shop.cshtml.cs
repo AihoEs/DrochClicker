@@ -32,15 +32,20 @@ namespace DrochClicker.Pages
             
         }
         
-        public void OnGet()
+        public async Task<IActionResult> OnGet()
         {
+            if (!User.Identity.IsAuthenticated)
+            {
+
+                return RedirectToPage("/Login");
+            }
             var login = User.Identity.Name;
             _shopService.AddDefaultUpgrade();
 
 
             ShopUpgrades = _db.Upgrades.ToList();
             UserUpgrades = _db.UserUpgrades.Where(x => x.UserLogin == login).ToList();
-
+            return Page();
 
 
 
@@ -84,6 +89,59 @@ namespace DrochClicker.Pages
                             UpgradeId = upgradeId,
                             Level = 1,
                             
+                        };
+                        _db.UserUpgrades.Add(newUpgrade);
+                        user.ClickCount -= (int)finalPrice;
+                    }
+                }
+                else
+                {
+                    return Page();
+                }
+            }
+            await _db.SaveChangesAsync();
+            return RedirectToPage("/System/Click");
+
+
+        }
+        public async Task<IActionResult> OnPostBuy5Async(int upgradeId)
+        {
+
+            var login = User.Identity.Name;
+            var upgrades = await _db.UserUpgrades.FirstOrDefaultAsync(x => x.UserLogin == login && x.UpgradeId == upgradeId);
+            ShopUpgrades = _db.Upgrades.ToList();
+            var shopItem = ShopUpgrades.FirstOrDefault(x => x.ItemId == upgradeId);
+            var user = await _db.DataBase.FindAsync(login);
+
+
+
+            if (shopItem == null)
+            {
+                return RedirectToPage("/Index");
+            }
+            else
+            {
+
+                int level = upgrades?.Level ?? 0;
+                double finalPrice = shopItem.Price * (Math.Pow(1.15, level) * 5);
+                if (user.ClickCount >= (int)finalPrice)
+                {
+
+
+                    if (upgrades != null)
+                    {
+                        upgrades.Level += 5;
+                        user.ClickCount -= (int)finalPrice;
+                    }
+                    else
+                    {
+
+                        var newUpgrade = new UserInfo
+                        {
+                            UserLogin = login,
+                            UpgradeId = upgradeId,
+                            Level = 5,
+
                         };
                         _db.UserUpgrades.Add(newUpgrade);
                         user.ClickCount -= (int)finalPrice;

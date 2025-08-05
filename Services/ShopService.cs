@@ -70,7 +70,7 @@ namespace DrochClicker.Services
                 ItemId = 6,
                 Name = "Кончить",
                 EffectType = "Rebirth",
-                Value = 1,
+                Value = 0,
                 Price = 15000
                 }
 
