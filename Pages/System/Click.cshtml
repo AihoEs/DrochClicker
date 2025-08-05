@@ -1,0 +1,37 @@
+﻿@page
+@model Drochclicker.Pages.System.ClickModel
+@{
+}
+
+
+
+
+
+<h2> Кликер</h2>
+<div class="d-flex justify-content-center">
+<form method="post">
+    <button type="submit">Подрочил</button>
+</form>
+</div>
+
+<p class="display-3">@Model.Click</p>
+
+
+<h3>Инвентарь</h3>
+
+@if(Model.Inventory != null)
+{
+@foreach(var item in Model.Inventory)
+   {
+
+    <ul>
+        <p>@(item.Upgrade?.Name ?? "Нет названия")  -  @item.Level</p>
+    </ul>
+    
+   }
+}
+else
+{
+    <p>У вас пока нет апгрейдов</p>
+}
+

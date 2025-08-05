@@ -1,0 +1,21 @@
+﻿@page
+@model DrochClicker.Pages.ShopModel
+@{
+}
+
+<h2>Магазин</h2>
+<p>@foreach (var item in Model.ShopUpgrades)
+    {
+        
+       var userUpgrade = Model.UserUpgrades.FirstOrDefault(u => u.UpgradeId == item.ItemId);
+        var level = userUpgrade?.Level ?? 0;
+        var FinalPrice = item.Price * Math.Pow(1.15, level);
+        <form method="post">
+            <ul>
+                <p>@item.Name - @FinalPrice (@item.EffectType) </p>
+                <button asp-page-handler="Buy" asp-route-upgradeId="@item.ItemId">Купить</button>
+            </ul>
+        </form>
+       
+    }
+</p>

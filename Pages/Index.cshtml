@@ -1,0 +1,16 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <div class="d-flex justify-content-center">
+        <form method="get" asp-page ="/User/Logout">
+            <button type="submit" class="btn btn-danger">Выйти</button>
+        </form>
+    </div>
+       
+    
+</div>
