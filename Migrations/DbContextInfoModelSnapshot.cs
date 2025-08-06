@@ -37,6 +37,9 @@ namespace Drochclicker.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
+                    b.Property<int?>("PreviousUpgradeId")
+                        .HasColumnType("integer");
+
                     b.Property<int>("Price")
                         .HasColumnType("integer");
 

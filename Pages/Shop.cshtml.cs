@@ -17,6 +17,7 @@ namespace DrochClicker.Pages
 
         public List<ShopInfo> ShopUpgrades { get; set; } = new();
         public List<UserInfo> UserUpgrades { get; set; } = new();
+        public List<ShopInfo> VisibleUpgrades { get; set; }
 
 
 
@@ -40,6 +41,26 @@ namespace DrochClicker.Pages
                 return RedirectToPage("/Login");
             }
             var login = User.Identity.Name;
+            var allUpgrades = await _db.Upgrades.ToListAsync();
+            var userUpgrades = await _db.UserUpgrades.Where(u => u.UserLogin == login).ToListAsync();
+            VisibleUpgrades = new List<ShopInfo>();
+            foreach (var upgrade in allUpgrades)
+            {
+
+                if (upgrade.PreviousUpgradeId == null)
+                {
+                    VisibleUpgrades.Add(upgrade);
+                    continue;
+
+                }
+                var prevUserUpgrade = userUpgrades.FirstOrDefault(u => u.UpgradeId == upgrade.PreviousUpgradeId);
+
+                if (prevUserUpgrade != null && prevUserUpgrade.Level > 0)
+                {
+                    VisibleUpgrades.Add(upgrade);
+
+                }
+            }
             _shopService.AddDefaultUpgrade();
 
 
@@ -123,7 +144,12 @@ namespace DrochClicker.Pages
             {
 
                 int level = upgrades?.Level ?? 0;
-                double finalPrice = shopItem.Price * (Math.Pow(1.15, level) * 5);
+                double basePrice = shopItem.Price * Math.Pow(1.15, level); // цена следующего апгрейда
+                int n = 5; 
+
+                double rate = 1.15;
+
+                double finalPrice = basePrice * (Math.Pow(rate, n) - 1) / (rate - 1);
                 if (user.ClickCount >= (int)finalPrice)
                 {
 

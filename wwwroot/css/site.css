@@ -1,0 +1,96 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mozilla+Headline:wght@200..700&family=Oswald:wght@200..700&display=swap');
+
+.shop-button:hover {
+    background-color: lawngreen;
+}
+body{
+    background-color: azure
+    
+}
+* {
+    font-family: 'Oswald', cursive;
+}
+
+#Shop {
+    
+    height: 400px;
+    overflow-y: auto;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+#shopText{
+    font-size: 19px;
+}
+#shopButton{
+    font-size: 18px;
+    background: none;
+    border-radius: 6px;
+    color:black;
+    font-weight: 700;
+    margin: 1px;
+}
+#Inventory {
+    background-color: #e3a6a1;
+    color: black;
+    font-size: 18px;
+    opacity: 0.8;
+    border-radius: 10px;
+    width: 300px;
+}
+#sperm {
+    background-color: #e3a6a1;
+    color: black;
+    font-size: 18px;
+    opacity: 0.8;
+    border-radius: 10px;
+    width: 250px;
+    padding: 10px 25px 5px 25px;
+}
+
+#Clicker {
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    margin: 0 auto;
+}
+#ClickButton {
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%; 
+    background-color: #3498db; 
+    color: white; 
+    border: none; 
+    font-size: 20px; 
+    font-weight: bold;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#Rebirth {
+    background-color: #e3a6a1;
+    border-radius: 10px;
+    height: 150px;
+    width: 500px;
+    margin: 0 auto;
+    font-size: 20px;
+
+
+}
+#RebirthButton {
+    background: none;
+    border: none;
+    padding: 0;
+    color: black ;
+    font-size: 27px;
+    padding: 0;
+}

@@ -25,6 +25,7 @@ namespace Drochclicker.Pages.System
         public double finalPrice { get; set; }
 
         public double RebirthPrice { get; set; }
+       
 
 
 
@@ -46,19 +47,26 @@ namespace Drochclicker.Pages.System
                 return RedirectToPage("/Login");
             }
 
+
+            
             var login = User.Identity.Name;
-            var user = await _db.DataBase.FindAsync(login);
+
+           
+
+                var user = await _db.DataBase.FindAsync(login);
             var Rebirths = await _db.UserUpgrades.Where(u => u.UserLogin == login).Select(u => u.Rebirth).ToListAsync();
             var RebirthCount = Rebirths.Count > 0 ? Rebirths.Max() : 0;
             Rebirth = RebirthCount;
+
             var UserName = GetUserName();
             Inventory = await _db.UserUpgrades.Include(u => u.Upgrade).Where(u => u.UserLogin == UserName).ToListAsync();
             UserUpgrades = await _db.UserUpgrades.Include(u => u.Upgrade).Where(u => u.UserLogin == UserName).ToListAsync();
+
             double basePrice = 15000; 
             RebirthPrice = basePrice * Math.Pow(1.5, RebirthCount + 1);
 
             var entry = await _db.DataBase.FindAsync(UserName);
-            ShopUpgrades = _db.Upgrades.ToList();
+            ShopUpgrades = await _db.Upgrades.ToListAsync();
 
             if(entry == null)
             {
@@ -79,7 +87,7 @@ namespace Drochclicker.Pages.System
             var user = await _db.DataBase.FindAsync(login);
             var Rebirths = await _db.UserUpgrades.Where(u => u.UserLogin == login).Select(u => u.Rebirth).ToListAsync();
             var RebirthCount = Rebirths.Count > 0 ? Rebirths.Max() : 0;
-            ShopUpgrades = _db.Upgrades.ToList();
+            ShopUpgrades = await _db.Upgrades.ToListAsync();
             double basePrice = 15000;
             RebirthPrice = basePrice * Math.Pow(1.5, RebirthCount + 1);
 
@@ -116,7 +124,7 @@ namespace Drochclicker.Pages.System
         }
         public async Task<IActionResult> OnPostRebirthAsync(int upgradeId)
         {
-            ShopUpgrades = _db.Upgrades.ToList();
+            ShopUpgrades = await _db.Upgrades.ToListAsync();
             var login = User.Identity.Name;
             var user = await _db.DataBase.FindAsync(login);
             var Rebirths = await _db.UserUpgrades.Where(u => u.UserLogin == login).Select(u => u.Rebirth).ToListAsync();

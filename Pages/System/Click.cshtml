@@ -8,9 +8,9 @@
 
 
 <h2> Кликер</h2>
-<div class="d-flex justify-content-center">
+<div id="Clicker" style="text-align: center">
 <form method="post">
-    <button type="submit">Подрочил</button>
+    <button id="ClickButton" type="submit">Подрочил</button>
 </form>
 </div>
 
@@ -21,6 +21,7 @@
 
 <h3>Инвентарь</h3>
 
+<div id="Inventory">
 @if(Model.Inventory != null)
 {
 @foreach(var item in Model.Inventory)
@@ -37,12 +38,14 @@ else
 {
     <p>У вас пока нет апгрейдов</p>
 }
+</div >
+<div id="sperm">
+    <p>Ты сделал @Model.Rebirth пусков спермы </p>
+</div>
 
-<p>Ты сделал @Model.Rebirth пусков спермы </p>
-<div style="text-align: center">
+<div id="Rebirth" style="text-align: center">
     
         <p><strong>Кончить(сбросить весь прогресс)</strong></p>
-        <br />
         <p>
             <strong>
 
@@ -54,7 +57,7 @@ else
                         <ul>
                             <p>@item.Name - @Model.RebirthPrice (+@item.Value) </p>
                             <input type="hidden" name="upgradeId" value="@item.ItemId" />
-                            <button type="submit" asp-page-handler="Rebirth">Купить</button>
+                            <button id="RebirthButton" type="submit" asp-page-handler="Rebirth">Купить</button>
                         </ul>
                         </form>
                     }

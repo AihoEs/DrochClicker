@@ -9,6 +9,7 @@ namespace DrochClicker.Services
         public int ItemId { get; set; }
         public string Name { get; set; }
         public string EffectType { get; set; } //boost or autoclick
+        public int? PreviousUpgradeId { get; set; }
         public int Value { get; set; }
         public int Price { get; set; }
     }

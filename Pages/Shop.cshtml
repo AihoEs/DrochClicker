@@ -4,24 +4,31 @@
 }
 
 <h2>Магазин</h2>
-<p>@foreach (var item in Model.ShopUpgrades)
+<div id="Shop">
+<p>@foreach (var item in Model.VisibleUpgrades)
     {
         if (item.EffectType != "Rebirth")
         {
+                
 
             var userUpgrade = Model.UserUpgrades.FirstOrDefault(u => u.UpgradeId == item.ItemId);
             var level = userUpgrade?.Level ?? 0;
-            var FinalPrice = item.Price * Math.Pow(1.15, level);
-            var FinalPrice5 = item.Price * (Math.Pow(1.15, level) * 5); 
+            double FinalPrice = item.Price * Math.Pow(1.15, level); 
+            double FinalPrice5 = FinalPrice * (Math.Pow(1.15, 5) - 1) / (1.15 - 1);
+
+                <div style="margin-bottom: 20px; padding: 10px; border-bottom: 1px solid #ccc;">
             <form method="post">
                 <ul>
-                <p>@item.Name - @FinalPrice (@item.EffectType) (+@item.Value) </p>
-                <button asp-page-handler="Buy" asp-route-upgradeId="@item.ItemId">Купить</button>
+                <p id="shopText">@item.Name - @FinalPrice (@item.EffectType) (+@item.Value) </p>
+                <button id="shopButton" asp-page-handler="Buy" asp-route-upgradeId="@item.ItemId">Купить</button>
 
-                <p>@item.Name - @FinalPrice5 (@item.EffectType) (+@item.Value) </p>
-                <button asp-page-handler="Buy5" asp-route-upgradeId="@item.ItemId">Купить x5</button>
+                <p  id="shopText">@item.Name - @FinalPrice5 (@item.EffectType) (+@item.Value) </p>
+                <button id="shopButton" asp-page-handler="Buy5" asp-route-upgradeId="@item.ItemId">Купить x5</button>
             </ul>
         </form>
+        </div>
+        
         }
     }
+    </div>
     
